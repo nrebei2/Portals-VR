@@ -25,6 +25,7 @@ ModelImporter:
     100038: 011-0-11_002
     100040: 012-0-12
     100042: //RootNode
+    100044: 003-0-3_003
     400000: 000-0-0
     400002: 001-0-1
     400004: 002-0-2
@@ -47,6 +48,7 @@ ModelImporter:
     400038: 011-0-11_002
     400040: 012-0-12
     400042: //RootNode
+    400044: 003-0-3_003
     2100000: 004-0-4
     2100002: 004-1-4
     2100004: 003-0-3
@@ -69,6 +71,7 @@ ModelImporter:
     2100038: 010-1-10
     2100040: 012-0-12
     2100042: unnamed
+    2100044: kden
     2300000: 000-0-0
     2300002: 001-0-1
     2300004: 002-0-2
@@ -90,6 +93,7 @@ ModelImporter:
     2300036: 011-0-11_001
     2300038: 011-0-11_002
     2300040: 012-0-12
+    2300042: 003-0-3_003
     3300000: 000-0-0
     3300002: 001-0-1
     3300004: 002-0-2
@@ -111,6 +115,7 @@ ModelImporter:
     3300036: 011-0-11_001
     3300038: 011-0-11_002
     3300040: 012-0-12
+    3300042: 003-0-3_003
     4300000: 004-0-4_002
     4300002: 003-0-3_002
     4300004: 011-0-11_002
@@ -132,6 +137,7 @@ ModelImporter:
     4300036: 010-0-10
     4300038: 011-0-11
     4300040: 012-0-12
+    4300042: 003-0-3_003
     7400000: Default Take
     9500000: //RootNode
     2186277476908879412: ImportLogs
@@ -241,6 +247,16 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: 012-0-12
     second: {fileID: 2100000, guid: 70d69db5c43d91542a7cedf30952be06, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kden
+    second: {fileID: 2100000, guid: 410cef6331e59f24bad5df56264d0d1f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: unnamed
+    second: {fileID: 2100000, guid: 8def48d7143e9b54c85bd38a94385708, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -279,7 +295,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 0
+    generateSecondaryUV: 1
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
